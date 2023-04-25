@@ -5,9 +5,9 @@ q = int(input("\n1. 이차함수의 최댓값 또는 최솟값 구하기\n2. 제
 
 if q == 1: # 이차함수의 최댓값 또는 최솟값 구하기
     print("\ny = ax² + bx + c 형식에 맞게 값을 입력해주세요.")
-    a = int(input("a : ")) # a의 값 입력
-    b = int(input("b : ")) # b의 값 입력
-    c = int(input("c : ")) # c의 값 입력
+    a = int(input("a = ")) # a의 값 입력
+    b = int(input("b = ")) # b의 값 입력
+    c = int(input("c = ")) # c의 값 입력
     if a > 0: # a > 0 일때 최댓값은 없다
         print(f"\nx = {-b / (2*a)}일때, 최솟값 : {-(b**2 - 4*a*c) / (4*a)}이고, 최댓값은 없다.") # y = a(x-p)²-q 에서 x = -b / (2*a), q = -(b**2 - 4*a*c) / (4*a)
     elif a < 0: # a < 0 일때 최솟값은 없다.
